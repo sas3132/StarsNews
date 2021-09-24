@@ -21,19 +21,20 @@ function App() {
                 <aside className="sidebar">
                     <nav className="sidebarMenu">
                         <ul className="sidebarList">
-                            <li>Популярное</li>
-                            <li>Новое</li>
+                            <li><span>Популярное</span></li>
+                            <li><span>Новое</span></li>
                         </ul>
+                        {/*<div className="sectionsMenu">Разделы</div>*/}
                         <ul className="newsTopics">
-                            <li>Starwars</li>
-                            <li>Новости города</li>
-                            <li>Водоканал</li>
+                            <li><span>Starwars</span></li>
+                            <li><span>Новости города</span> </li>
+                            <li><span>Водоканал</span></li>
                         </ul>
                     </nav>
                     <footer className="footer">
                         <div className="contact">
                             <a href=""><img src="img/github.svg" alt=""/></a>
-                            <a href=""><img src="img/telegram.svg" alt=""/></a>
+                            <a className="telegramImg" href=""><img src="img/telegram.svg" alt=""/></a>
                         </div>
                         <div className="info">
                             <p>by Sas31 © 2021. StarsNews.</p>
@@ -42,6 +43,53 @@ function App() {
                 </aside>
                 <section className="content">
                     <div className="contentContainer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                    </div>
+                </section>
+                <section className="comments">
+                    <div className="comentsContainer">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus fuga, fugit itaque labore magni modi, nisi quae vitae?
 
                     </div>
                 </section>

@@ -7,9 +7,10 @@ body {
   background-color: #F0F0F0;
 }
 
-*{
+* {
   font-family: 'Roboto', sans-serif;
 }
+
 .clear {
   * {
     box-sizing: border-box;
@@ -40,6 +41,17 @@ body {
 "main";
 
   .header {
+
+    //закреп
+    position: fixed;
+    width: 100%;
+    //top: 0;   ?????
+    left: 0;
+    right: 0;
+    z-index: 25;
+    //шапки
+
+
     grid-area: header;
     background-color: #FFFFFF;
     padding: 10px 16px;
@@ -60,10 +72,10 @@ body {
       grid-template: 1fr / minmax(auto,344px) minmax(auto, 144px) minmax(auto, 1fr) minmax(auto, 38px);
 
 
-
       .searchField::placeholder {
         color: #9D9696;
       }
+
       .searchField {
         margin-left: 24px;
         font-size: 16px;
@@ -100,9 +112,11 @@ body {
       .search-submit {
         display: none;
       }
-      .searchField:hover{
+
+      .searchField:hover {
         background-color: #FFFFFF;
       }
+
       input[type="search"] {
         -webkit-appearance: textfield;
       }
@@ -123,8 +137,9 @@ body {
         border: 1px solid #F0F0F0;
         border-radius: 2px;
 
-        .addButtonText{
+        .addButtonText {
           transition: transform 0.15s ease-in-out;
+
           &:active {
             transform: translateY(1px);
           }
@@ -136,6 +151,7 @@ body {
       .headerSpacer {
         margin: 0;
       }
+
       .userLogin {
         display: flex;
         padding-left: 10px;
@@ -145,6 +161,112 @@ body {
 
   .main {
     grid-area: main;
+    display: grid;
+    grid-template: 1fr/minmax(auto, 240px) 1fr 1fr;
+
+
+    .sidebar {
+      background-color: #F4F4F4;
+      position: sticky;
+      top: 60px;
+      height: calc(100vh - 60px);
+
+
+      display: grid;
+      grid-template: 1fr 25px/1fr;
+
+      //может для
+
+      //position: fixed;
+      //top: 0;
+      //left: 0;
+      //max-width: 240px;
+      //height: 100%;
+      //background-color: darkcyan;
+      //padding: 70px 0 0 0;
+
+      //мобилы
+
+      .sidebarMenu {
+        display: flex;
+        flex-direction: column;
+        margin: 16px 16px 0 16px;
+
+        .sidebarList {
+          margin-bottom: 8px;
+
+          li {
+            display: flex;
+            background-color: #FFFFFF;
+            margin-bottom: 3px;
+            border-radius: 2px;
+            height: 40px;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #fbfbfb;
+            }
+
+            span {
+              margin-left: 16px;
+            }
+
+          }
+        }
+
+        .newsTopics {
+          margin-top: 8px;
+
+          li {
+            display: flex;
+            background-color: #FFFFFF;
+            margin-bottom: 3px;
+            border-radius: 2px;
+            height: 40px;
+            align-items: center;
+            cursor: pointer;
+
+            &:hover {
+              background-color: #fbfbfb;
+            }
+
+            span {
+              margin-left: 16px;
+            }
+          }
+        }
+
+      }
+
+
+      .footer {
+        display: flex;
+        font-size: 12px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px 30px 10px;
+
+        .contact {
+          min-width: 56px;
+        }
+
+        .telegramImg {
+          margin-left: 6px;
+        }
+
+        .info {
+          width: 100px;
+          margin-left: 40px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+
+    }
+
   }
 
 }
