@@ -52,22 +52,46 @@ function App() {
                         <div className="contentTitle">Лезвие бритвы (англ. Razor Crest) — канонерка, принадлежавшая Дину
                             Джарину.
                         </div>
-                        <p className="news">Мандалорец использовал судно как транспорт и апартаменты, в то время как охотился на беглецов во Внешнем Кольце.</p>
-                        <img src="img/newsImg.jpg" alt="" className="newsImg"/>
+                        <p className="news">Мандалорец использовал судно как транспорт и апартаменты, в то время как
+                            охотился на беглецов во Внешнем Кольце.</p>
+                        <div className="newsPicture">
+                            <img src="img/newsImg.jpg" alt="" className="newsImg"/>
+                        </div>
                         <footer className="contentFooter">
-                                <div className="comment">
-                                    <img src="img/commentImg.svg" alt="" className="commentButton"/>
-                                </div>
+
+                                <img src="img/commentImg.svg" alt="" className="commentButton"/>
+
                             <div className="like">
                                 <img src="img/likeImg.svg" alt="" className="likeImg"/>
                                 <div className="likeNumber">351</div>
                             </div>
                         </footer>
                     </div>
+                    <div className="contentContainer">
+                        <header className="contentHeader">
+                            <img src="img/iconTopic.svg" alt="" className="iconTopic"/>
+                            <div className="nameTopic">StarWars</div>
+                        </header>
+                        <div className="contentTitle">«Глава 4: Убежище»
+                        </div>
+                        <p className="news">В бегстве от Гильдии Мандалорец и Младенец прибывают на малонаселённую планету Сорган.</p>
+                        <div className="newsPicture">
+                            <img src="img/newsImg2.jpg" alt="" className="newsImg"/>
+                        </div>
+                        <footer className="contentFooter">
+
+                                <img src="img/commentImg.svg" alt="" className="commentButton"/>
+
+                            <div className="like">
+                                <img src="img/likeImg.svg" alt="" className="likeImg"/>
+                                <div className="likeNumber">201</div>
+                            </div>
+                        </footer>
+                    </div>
                 </section>
                 <section className="comments">
                     <div className="comentsContainer">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
+                      etur adipisicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
                         fuga, fugit itaque labore magni modi, nisi quae vitae?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
@@ -75,53 +99,17 @@ function App() {
                         fuga, fugit itaque labore magni modi, nisi quae vitae?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        fuga, fugit itaque labore magn i, nisi quae vitae?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
+                        fuga, fugicing elit. Accusamus architecto consequuntur
+                        deleniti necessitatibus odio repellentatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
+                        fuga, fugit itaque labore magn i, nisi quae vitae?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
+                        fuga, fugicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
+                        fuae ectetur adipisicing elit. Accusamus architecto consequuntur
                         deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
                         fuga, fugit itaque labore magni modi, nisi quae vitae?
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
