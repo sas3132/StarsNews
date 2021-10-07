@@ -59,7 +59,7 @@ function App() {
                         </div>
                         <footer className="contentFooter">
 
-                                <img src="img/commentImg.svg" alt="" className="commentButton"/>
+                            <img src="img/commentImg.svg" alt="" className="commentButton"/>
 
                             <div className="like">
                                 <img src="img/likeImg.svg" alt="" className="likeImg"/>
@@ -74,13 +74,14 @@ function App() {
                         </header>
                         <div className="contentTitle">«Глава 4: Убежище»
                         </div>
-                        <p className="news">В бегстве от Гильдии Мандалорец и Младенец прибывают на малонаселённую планету Сорган.</p>
+                        <p className="news">В бегстве от Гильдии Мандалорец и Младенец прибывают на малонаселённую
+                            планету Сорган.</p>
                         <div className="newsPicture">
                             <img src="img/newsImg2.jpg" alt="" className="newsImg"/>
                         </div>
                         <footer className="contentFooter">
 
-                                <img src="img/commentImg.svg" alt="" className="commentButton"/>
+                            <img src="img/commentImg.svg" alt="" className="commentButton"/>
 
                             <div className="like">
                                 <img src="img/likeImg.svg" alt="" className="likeImg"/>
@@ -90,35 +91,45 @@ function App() {
                     </div>
                 </section>
                 <section className="comments">
-                    <div className="comentsContainer">
-                      etur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magn i, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellentatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magn i, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuae ectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus architecto consequuntur
-                        deleniti necessitatibus odio repellendus suscipit. Adipisci alias consequatur deserunt doloribus
-                        fuga, fugit itaque labore magni modi, nisi quae vitae?
-
+                    <div className="commentsContainer">
+                        <div className="commentsTitle">
+                            <span className="title">Комментарии</span>
+                            <img src="img/chevronRight.svg" alt="" className="commTitleImg"/>
+                        </div>
+                        <div className="allComments">
+                            <div className="comment">
+                                <header className="commentHeader">
+                                    <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
+                                    <span className="userName">Малыш Грогу</span>
+                                </header>
+                                <div className="commentBody"> ..., опять какие-то ебеня</div>
+                                <a className="newsTitle">«Глава 4: Убежище»</a>
+                            </div>
+                            <div className="comment">
+                                <header className="commentHeader">
+                                    <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
+                                    <span className="userName">Малыш Грогу</span>
+                                </header>
+                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="newsTitle">«Глава 4: Убежище»</div>
+                            </div>
+                            <div className="comment">
+                                <header className="commentHeader">
+                                    <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
+                                    <span className="userName">Малыш Грогу</span>
+                                </header>
+                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="newsTitle">«Глава 4: Убежище»</div>
+                            </div>
+                            <div className="comment">
+                                <header className="commentHeader">
+                                    <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
+                                    <span className="userName">Малыш Грогу</span>
+                                </header>
+                                <div className="commentBody"> Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="newsTitle">«Глава 4: Убежище»</div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>

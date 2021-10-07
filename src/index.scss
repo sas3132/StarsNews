@@ -162,7 +162,7 @@ body {
   .main {
     grid-area: main;
     display: grid;
-    grid-template: 1fr/minmax(auto, 240px) 1fr 320px;
+    grid-template: 1fr/minmax(auto, 240px) 1fr 304px;
 
 
     .sidebar {
@@ -303,7 +303,7 @@ body {
         .contentTitle {
           margin: 10px 0 10px;
           padding: 0 20px 0;
-          font-weight: 500;
+          font-weight: 400;
           font-size: 22px;
           font-style: normal;
         }
@@ -354,7 +354,72 @@ body {
 
     }
 
+    .commentsContainer {
+      position: sticky;
+      top: 60px;
+      height: calc(100vh - 60px);
 
+
+      .commentsTitle {
+
+        display: flex;
+        align-items: center;
+        height: 74px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        padding-left: 20px;
+
+
+        .commTitleImg {
+          margin-top: 2px;
+          margin-left: 6px;
+        }
+      }
+    }
+
+    .allComments {
+      display: flex;
+      flex-direction: column;
+
+      .comment {
+        margin: 0 0 0 0 ;
+        padding:10px 20px 14px 20px ;
+        .commentHeader {
+          display: flex;
+          align-items: center;
+          margin-bottom:6px;
+
+          .avatarUser {
+            height: 22px;
+            width: 22px;
+            border-radius: 4px;
+            margin: 0 8px 0 0 ;
+          }
+          .userName {
+            font-weight: 500;
+            font-size: 14px;
+            font-style: normal;
+            line-height: 14px;
+          }
+        }
+
+        .commentBody {
+          font-size: 16px;
+          font-style: normal;
+          line-height: 24px;
+          margin-bottom: 4px;
+        }
+
+        .newsTitle {
+          font-weight: 500;
+          font-size: 14px;
+          font-style: normal;
+          line-height: 20px;
+
+        }
+      }
+    }
   }
 
 }
