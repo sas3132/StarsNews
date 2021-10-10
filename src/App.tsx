@@ -1,5 +1,7 @@
 import React from 'react';
 
+/**TODO: textarea код сенбокс где 1fr ????*/
+
 function App() {
     return (
         <div className="wrapper clear">
@@ -19,7 +21,7 @@ function App() {
                     </div>
                 </nav>
             </header>
-            <main className="main">
+            <main style={{display: "none"}} className="main">
                 <aside className="sidebar">
                     <nav className="sidebarMenu">
                         <ul className="sidebarList">
@@ -110,7 +112,9 @@ function App() {
                                     <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
                                     <span className="userName">Малыш Грогу</span>
                                 </header>
-                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать
+                                    кнопки.
+                                </div>
                                 <div className="newsTitle">«Глава 4: Убежище»</div>
                             </div>
                             <div className="comment">
@@ -118,7 +122,9 @@ function App() {
                                     <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
                                     <span className="userName">Малыш Грогу</span>
                                 </header>
-                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="commentBody">Да ..., опять какие-то ебеня, не дает поспать, и нажимать
+                                    кнопки.
+                                </div>
                                 <div className="newsTitle">«Глава 4: Убежище»</div>
                             </div>
                             <div className="comment">
@@ -126,12 +132,43 @@ function App() {
                                     <img src="img/avatarUser.jpg" alt="" className="avatarUser"/>
                                     <span className="userName">Малыш Грогу</span>
                                 </header>
-                                <div className="commentBody"> Да ..., опять какие-то ебеня, не дает поспать, и нажимать кнопки.</div>
+                                <div className="commentBody"> Да ..., опять какие-то ебеня, не дает поспать, и нажимать
+                                    кнопки.
+                                </div>
                                 <div className="newsTitle">«Глава 4: Убежище»</div>
                             </div>
                         </div>
                     </div>
                 </section>
+            </main>
+            <main className="contentAdd">
+                <div className="editor">
+                    <div className="avatarImg">
+                        <img src="img/avatarUser.jpg" alt=""/>
+                    </div>
+                    <div className="userLabel">Мои новости</div>
+
+                </div>
+                <div className="closeEditor">
+                    <img src="img/closeButton.svg" alt="" className="closeImg"/>
+                </div>
+                <form action="" target="" className="editorTextArea">
+                        <textarea  name="message" placeholder="Новость" className="textArea"></textarea>
+                        <input className="buttonAdd" type="submit" value="Опубликовать"></input>
+                </form>
+
+
+
+
+
+                {/*                <div className="editorTextArea">*/}
+                {/*                    <textarea name="TextHews" id=""  className="textareaEditor">*/}
+
+                {/*                    </textarea>*/}
+                {/*                </div>*/}
+                {/*                <div className="addContentButton">*/}
+                {/*<button className="addContent">Опубликовать</button>*/}
+                {/*                </div>*/}
             </main>
         </div>
     );
